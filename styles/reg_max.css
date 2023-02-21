@@ -1,0 +1,477 @@
+@media screen and (max-width: 1000px){
+
+   
+    .logo_footer{ 
+        display: none;
+    }
+    
+    
+    
+    .forms{ 
+        display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+        
+    } 
+    .header{ 
+        position: static
+    }
+    
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;900&display=swap');
+    
+    input {
+      caret-color: red;
+    } 
+    p{ 
+        text-align: center;
+    }
+     
+    ul {
+        padding: 18px; 
+        display: flex;
+    flex-direction: column; 
+    align-items:flex-start;
+      }
+      ul li {
+        display: inline-block;
+        margin-right: 5px;
+        color: #FFFFFF;
+        padding-left: 30px;   
+        
+    
+      } 
+    body{ 
+        font-family: 'Cera Pro';
+    }
+     
+    
+    
+    
+    .container { 
+        margin-bottom: 20px;
+    
+        box-sizing: border-box;
+        width: 350px;
+        height: 500px;
+        background: #FFFFFF;
+        border: 1px dashed #CCD9EC;
+        border-radius: 50px; 
+       
+        display: flex;
+        flex-direction: column;
+        align-content: space-around;
+        align-items: center; 
+        margin:30px;
+    }
+    .content{
+        display: flex;
+        flex-direction: column; 
+        align-items: center; 
+        width: 260px; 
+        
+    
+    } 
+    
+    .content2{
+        display: flex;
+        flex-direction: column; 
+        align-items: center;  
+        width: 280px; 
+        margin-top: 30px;
+    
+    }
+    
+    
+    .inputs {
+      text-align: left;
+      margin-top: 30px;
+    }
+     
+    
+    
+    /*swith_buttons*/ 
+    .swith_buttons{    
+        position: relative;
+        width: 300px;
+        display: flex;
+        flex-direction: column; 
+        align-items: center; 
+        
+    }
+    
+    .switch {
+        position: relative;
+        display:flex;
+        width: 300px; 
+        height: 70px;  
+        
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        
+       
+      }
+    
+    
+      .in{
+        font-family: 'Cera Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 23px;
+    /* identical to box height */
+    
+    text-align: center;
+    text-transform: uppercase;
+    
+    color: #CCD9EC;
+    
+      }
+    
+    
+      .reg{
+        font-family: 'Cera Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 23px;
+    /* identical to box height */
+    
+    text-align: center;
+    text-transform: uppercase;
+    
+    color: #CCD9EC;
+    
+      }
+      
+      /* Hide default HTML checkbox */
+      .switch input {display:none;}
+      
+      /* The slider */
+      .slider { 
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;   
+        -webkit-transition: .4s;
+        transition: .4s; 
+        
+      }
+      
+      .test_class{  
+    position:absolute;
+        
+      }
+      .slider:before {
+        position: absolute;
+        content: "Вход"; 
+        font-weight: 700; 
+        margin: auto;
+        font-size: 18px;
+        line-height: 23px;
+        /* identical to box height */
+        text-align: center;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        height: 90%;
+        width: 50%;
+        background: #3C63E3;
+        -webkit-transition: .4s;
+        transition: .4s; 
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly; 
+        
+      }
+    
+      
+    
+      
+      
+      input:checked + .slider:before {
+        -webkit-transform: translateX(26px);
+        -ms-transform: translateX(26px);
+        transform: translateX(100%);
+        content: "Регистрация"; 
+    
+      }
+      
+      /* Rounded sliders */
+      .slider.round {
+        border-radius: 72px;
+        
+      }
+      
+      .slider.round:before {
+        border-radius: 72px;
+      }
+    
+    /*from*/ 
+    .login_desc{ 
+        margin-top: 40px; 
+        font-size: 16px;
+        line-height: 20px;
+        color: #AFAFAF;
+    
+    } 
+    
+    .reg_desc{ 
+        margin-top: 40px; 
+        font-size: 16px;
+        line-height: 20px;
+        color: #AFAFAF;
+    }
+    
+    .log_in_email{ 
+        border: 0; 
+        margin-left: 20px;
+    }
+    
+    .log_in_email_div{ 
+        background: #FFFFFF;
+        border: 1px solid #CCD9EC;
+        border-radius: 50px; 
+        width: 100%;    
+        height: 60px; 
+        background: white url(https://drive.google.com/file/d/1s66H7XXuSWlmFd4PFJ909DnU6azxS6PT/view?usp=share_link) left no-repeat;
+        padding-left: 17px; 
+        
+    }    
+    .login_input_border{ 
+        width: 100%;  
+        align-items: center;
+        display: flex;
+        flex-direction: row; 
+        
+        
+        background: #FFFFFF;
+        border: 1px solid #CCD9EC;
+        border-radius: 50px; 
+        width: 100%;    
+        height: 40px; 
+        background: white url(https://drive.google.com/file/d/1s66H7XXuSWlmFd4PFJ909DnU6azxS6PT/view?usp=share_link) left no-repeat;
+    }
+    
+    
+    .login2_input_border{ 
+        width: 100%;  
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        margin-top: 30px;
+        background: #FFFFFF;
+        border: 1px solid #CCD9EC;
+        border-radius: 50px; 
+        width: 100%;    
+         height: 40px;
+        background: white url(https://drive.google.com/file/d/1s66H7XXuSWlmFd4PFJ909DnU6azxS6PT/view?usp=share_link) left no-repeat;
+    }
+    
+    
+    
+    
+    
+    .reg_nickname{  
+        background: #FFFFFF;
+        border: 1px solid #CCD9EC;
+        border-radius: 50px; 
+        width: 100%;
+        height: 60px;  
+        
+        
+    }
+    
+    
+    
+    
+    
+    .reg_email{ 
+        margin-top: 30px;
+    
+        background: #FFFFFF;
+        border: 1px solid #CCD9EC;
+        border-radius: 50px; 
+        width: 100%;
+        height: 60px;  
+     
+    
+       
+    } 
+    
+    .log_in_pass{ 
+        border: 0; 
+        margin-left: 20px;
+    }  
+    .reg_pass{ 
+        background: #FFFFFF;
+        border: 1px solid #CCD9EC;
+        border-radius: 50px; 
+        width: 100%;
+        height: 60px; 
+        margin-top: 30px;
+    }  
+    
+    .reg_again_pass{ 
+        background: #FFFFFF;
+        border: 1px solid #CCD9EC;
+        border-radius: 50px; 
+        width: 100%;
+        height: 60px; 
+        margin-top: 30px;
+    }  
+    
+    
+    
+    
+    .btn_login{  
+        width: 80%;
+        height: 50px; 
+        margin-top: 40px;
+        background: #FF2F56;
+        box-shadow: 0px 2.88998px 20.2298px rgba(93, 126, 189, 0.12), inset 0px -4px 4px rgba(117, 0, 0, 0.53);
+        border-radius: 72.2494px;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 20px;
+        text-align: center;
+        text-transform: uppercase;
+        color:#FFFFFF; 
+        border: 0;
+    } 
+     
+    
+    .btn_reg{  
+        width: 80%;
+        height: 50px; 
+        margin-top: 40px;
+        background: #FF2F56;
+        box-shadow: 0px 2.88998px 20.2298px rgba(93, 126, 189, 0.12), inset 0px -4px 4px rgba(117, 0, 0, 0.53);
+        border-radius: 72.2494px;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 20px;
+        text-align: center;
+        text-transform: uppercase;
+        color:#FFFFFF; 
+        border: 0;
+    } 
+    
+    
+    
+    .forgot_password{ 
+        font-size: 16px;
+        line-height: 20px;
+        color: #AFAFAF; 
+        margin-top: 40px;
+    }
+    
+    .icon{
+        margin-left: 20px;
+    }
+     
+    .image{ 
+        width: 55%;   
+        display: none;
+       
+
+        
+    }
+    .image_billy{
+        width: 100%;
+
+        
+    }
+    
+    
+    
+    
+    /*footer*/
+    
+    footer{ 
+        background-color: #4C4866;; 
+        max-width: 1920px; 
+        width: 100%;  
+        height: 400px; 
+        
+      }
+      
+      
+      .footer{ 
+        width: 100%; 
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+      } 
+    
+    
+    
+    
+    .up_footer{ 
+        
+        width: 85%;
+        height: 50%; 
+        
+        color: #FFFFFF; 
+        border-bottom: 1px solid rgba(255, 255, 255, 0.22); 
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 21px; 
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    
+    }  
+    
+    
+    
+    
+    
+    
+    .footer_names{ 
+        color: #FFFFFF; 
+        margin-top: 20px;;
+    }
+      
+    .down_footer_sec{ 
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 21px; 
+        
+    }
+       
+    
+    .down_footer{ 
+        width: 85%;
+        height: 50%; 
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center; 
+        justify-content: space-around;
+       
+        color: #FFFFFF; 
+    } 
+    
+    
+    .li_footer{ 
+        color: #7A7A7A;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 21px;
+    } 
+    
+    
+    .social_networks{ 
+        margin-top: 20px;
+    } 
+    
+    
+    #funkystyling {
+        background: white url("/Users/vadimdanilov/Desktop/figma_project/images/Vector.svg") left no-repeat;
+        padding-left: 18px;
+    }}
